@@ -13,6 +13,9 @@ function setup(){
 }
 function draw(){
     background("white")
+    fill("dark")
+    document.getElementById("square_side").innerHTML = "A largura e a altura do quadrado serão de  " + diference + "px"
+    square(noseY, noseX, diference)
     
 }
 function gotPoses(results){
